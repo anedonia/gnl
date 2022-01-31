@@ -72,8 +72,8 @@ char	*format_line(char *line)
 	else
 		new = malloc(sizeof(*new) * i + 2);
 	i = 0;
-	if (!line)
-		return (ft_free(line));
+	if (!new)
+		return (ft_free(new));
 	while (line[i] != '\n' && line[i])
 	{
 		new[i] = line[i];
