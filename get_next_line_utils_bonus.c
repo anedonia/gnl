@@ -36,25 +36,6 @@ int	buff_check(char *s)
 	return (0);
 }
 
-char	*ft_strdup(char *s)
-{
-	int		i;
-	char	*temp;
-
-	i = 0;
-	temp = malloc(sizeof(*temp) * ft_strlen(s) + 1);
-	if (!temp)
-		return (NULL);
-	i = 0;
-	while (s[i])
-	{
-		temp[i] = s[i];
-		i++;
-	}
-	temp[i] = '\0';
-	return (temp);
-}
-
 char	*ft_trim(char *buff)
 {
 	char	*new;
