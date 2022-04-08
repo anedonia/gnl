@@ -19,7 +19,6 @@
 char	*get_next_line(int fd);
 size_t	ft_strlen(char *s);
 int		buff_check(char *s);
-char	*ft_strdup(char *s);
 char	*ft_trim(char *buff);
 char	*ft_free(char *ptr);
 
